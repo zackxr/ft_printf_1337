@@ -1,0 +1,6 @@
+NAME := *.c
+
+
+
+clean :
+	rm -f *.o
