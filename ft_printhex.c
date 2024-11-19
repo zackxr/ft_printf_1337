@@ -6,7 +6,7 @@
 /*   By: smaksiss <smaksiss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 10:08:55 by smaksiss          #+#    #+#             */
-/*   Updated: 2024/11/14 12:18:09 by smaksiss         ###   ########.fr       */
+/*   Updated: 2024/11/16 10:08:51 by smaksiss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,11 +56,3 @@ int	ft_printhex(unsigned int x, char s)
 	ft_reverse(str, x);
 	return (i);
 }
-// int main()
-// {
-// 	int i = ft_printhex(-8,'x');
-// 	printf("\n");
-// 	int	j = printf("%x",-8);
-// 	printf("\n%d",i);
-// 	printf("\n%d",j);
-// }

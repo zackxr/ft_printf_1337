@@ -6,17 +6,13 @@
 /*   By: smaksiss <smaksiss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 10:06:46 by smaksiss          #+#    #+#             */
-/*   Updated: 2024/11/14 12:03:05 by smaksiss         ###   ########.fr       */
+/*   Updated: 2024/11/18 09:13:39 by smaksiss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include <string.h>
-# include <limits.h>
-# include <stdio.h>
-# include <stdlib.h>
 # include <stdarg.h>
 # include <unistd.h>
 

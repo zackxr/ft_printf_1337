@@ -6,7 +6,7 @@
 /*   By: smaksiss <smaksiss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 15:21:47 by smaksiss          #+#    #+#             */
-/*   Updated: 2024/11/13 10:14:38 by smaksiss         ###   ########.fr       */
+/*   Updated: 2024/11/16 10:09:37 by smaksiss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,9 +110,3 @@ int	ft_putnbr(int n, char str)
 	}
 	return (b + 1);
 }
-
-// int main()
-// {
-// 	int i = ft_putnbr(444444, 'd');
-// 	printf("\n%d",i);
-// }

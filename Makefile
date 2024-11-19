@@ -13,7 +13,7 @@ all : $(NAME)
 $(NAME) : $(OBJ)
 	ar rcs $@ $^
 
-%.o : %.c libftprintf.h
+%.o : %.c ft_printf.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean :
@@ -22,6 +22,6 @@ clean :
 fclean : clean
 	rm -rf $(NAME)
 
-re : fclean all clean
+re : fclean all
 
 .PHONY : all clean fclean ar

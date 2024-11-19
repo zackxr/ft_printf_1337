@@ -6,7 +6,7 @@
 /*   By: smaksiss <smaksiss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 09:17:18 by smaksiss          #+#    #+#             */
-/*   Updated: 2024/11/14 12:25:46 by smaksiss         ###   ########.fr       */
+/*   Updated: 2024/11/18 09:14:22 by smaksiss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,11 @@ static	int	ft_help(const char *str, va_list ptr, int c, int i)
 				c += ft_printhex(va_arg(ptr, unsigned int), str[i + 1]);
 			else if (str[i + 1] == '%')
 				c += ft_putchar(str[i + 1]);
-			i += 2;
+			i++;
 		}
-		else
-			c += ft_putchar(str[i++]);
+		else if (str[i] != '%')
+			c += ft_putchar(str[i]);
+		i++;
 	}
 	return (c);
 }
